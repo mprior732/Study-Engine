@@ -30,7 +30,9 @@ const InputMicroQuestion = () => {
       <a className="btn btn-warning btn-sm float-left mt-2" href="/">
         <b>back</b>
       </a>
-      <h1 className="text-center mt-3">Manage Microbiology Questions</h1>
+      <h1 className="text-white text-center mt-3">
+        Manage Microbiology Questions
+      </h1>
       <form className="mt-2" onSubmit={onSubmitForm}>
         <div className="d-flex">
           <textarea

@@ -54,7 +54,7 @@ const ListMicroQuestions = () => {
             <th>Delete</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="text-white">
           {rows.map((row) => {
             return (
               <tr key={row.micro_id}>

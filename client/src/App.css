@@ -1,5 +1,49 @@
 body {
-  background-color: #eff5f7;
+  background-image: url(./img/homepg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+tbody {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: hsla(20, 96%, 0%, 50%);
+}
+
+.top-landing-container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.landing-container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.study-btn {
+  width: 900px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 5px 2px rgba(216, 214, 214, 0.3);
+}
+
+.study-btn:hover {
+  box-shadow: 0 0 5px 2px rgba(231, 230, 230, 0.5);
+}
+
+.manage-btn {
+  max-width: 100px;
+  background-color: rgb(168, 185, 17);
+  color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 5px 2px rgba(216, 214, 214, 0.3);
+}
+
+.manage-btn:hover {
+  box-shadow: 0 0 5px 2px rgba(231, 230, 230, 0.5);
 }
 
 #card-container {
@@ -21,8 +65,8 @@ body {
   align-items: center;
   position: relative;
   border-radius: 0.25rem;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
-  background-color: white;
+  box-shadow: 0 0 5px 2px rgba(216, 214, 214, 0.5);
+  background-color: ivory;
   transform-style: preserve-3d;
   transition: 150ms;
   cursor: pointer;
@@ -32,7 +76,7 @@ body {
 
 .card:hover {
   --translate-y: -2px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 2px rgba(231, 230, 230, 0.7);
 }
 
 .card.flip {

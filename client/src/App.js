@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import InputMicroQuestion from "./components/microbiology/InputMicroQuestion";
 import ListMicroQuestions from "./components/microbiology/ListMicroQuestions";
 import MicroFlashApp from "./components/microbiology/MicroFlashApp";
+import Landing from "./components/Landing";
 
 //two functions to support switch wrapping with fragments
 function FragmentSupportingSwitch({ children }) {
@@ -36,7 +37,8 @@ function App() {
       <div className="App">
         <Nav />
         <FragmentSupportingSwitch>
-          <Route path="/" exact component={MicroFlashApp} />
+          <Route path="/" exact component={Landing} />
+          <Route path="/microbiology" component={MicroFlashApp} />
 
           <Route path="/managebio">
             <Fragment>
